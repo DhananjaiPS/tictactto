@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .conatiner{
+           
+        
+        }
+        .row{
+            display: flex;
+        }
+        .col{
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            
+        }
+    </Style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="grid">
+            <div class="row">
+                <div onclick="handelclick(this)" id="1"  class="col"></div>
+                <div onclick="handelclick(this)" id="2"   class="col"></div>
+                <div onclick="handelclick(this)" id="3"  class="col"></div>
+            </div>
+            <div class="row">
+                 <div onclick="handelclick(this)" id="4"   class="col"></div>
+                <div onclick="handelclick(this)"              id="5"  class="col"></div>
+                <div onclick="handelclick(this)" id="6"  class="col"></div>
+            </div>
+            <div class="row">
+                 <div onclick="handelclick(this)" id="7"   class="col"></div>
+                <div onclick="handelclick(this)" id="8"   class="col"></div>
+                <div onclick="handelclick(this)" id="9"  class="col"></div>
+            </div>
+        </div>
+
+        <button onclick="handelBtn(this)">Click me</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
